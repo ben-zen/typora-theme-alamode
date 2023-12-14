@@ -1,3 +1,46 @@
+/* Webfonts */
+
+/** Title fonts **/
+
+/* Webfont: Bodoni* */
+@font-face {
+  font-family: 'Bodoni-VF';
+  src: url('./alamode/Bodoni-VF.ttf');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bodoni-VF';
+  src: url('./alamode/Bodoni-Italic-VF.ttf');
+  font-style: italic;
+}
+
+/* Webfont: Josefin Sans */
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('./alamode/JosefinSans-VariableFont_wght.ttf');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('./alamode/JosefinSans-Italic-VariableFont_wght.ttf');
+  font-style: italic;
+}
+
+/* Webfont: EB Garamond */
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('./alamode/EBGaramond-VariableFont_wght.ttf');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('./alamode/EBGaramond-Italic-VariableFont_wght.ttf');
+  font-style: italic;
+}
+
 /* --------- */
 /* Variables */
 /* --------- */
@@ -5,15 +48,10 @@
 :root { 
 
 /* Fonts */
-  --ff-sans: -apple-system, BlinkMacSystemFont, "SF Pro", "Helvetica Neue", "Helvetica", 
-    "Arial", "Roboto", "Ubuntu", "Segoe UI", "Fira Sans", "Droid Sans", 
-    sans-serif; 
-  --ff-serif: "Ivy Journal", "Adobe Caslon Pro", "Goudy Old Style", 
-    "Athelas", "Californian FB", "Georgia Pro", Georgia,
-    serif; 
+  --ff-sans: 'Josefin Sans', sans-serif; 
+  --ff-serif: , serif; 
   --ff-mono: "SF Mono", "Roboto Mono", "Consolas", "Inconsolata", "Input", monospace;
-  --ff-disp: "SangBleu Empire", "F37 Bella", "acta-display", "Questa Grande", "QuestaGrande", 
-    "Didot", "Didonesque", "Georgia Pro", Georgia, serif; 
+  --ff-disp: 'Bodoni-VF', serif; 
   --ff-disp-sm: "SangBleu Kingdom", "Questa", "Georgia Pro", Georgia, serif; 
   --ff-garamond: "Adobe Garamond Pro", "Adobe Garamond", "EB Garamond", Garamond, serif; 
   --ff-helvetica: "Helvetica Neue", "Helvetica", Arial, sans-serif; 
